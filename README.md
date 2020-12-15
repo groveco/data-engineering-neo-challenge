@@ -1,10 +1,8 @@
 # Grove Data Engineering - Neo Challenge
 
-For this challenge you will create an ETL to capture information about NEOs (Near Earth Objects) and produce a visualization from the results.
+For this challenge you will create an ETL to capture information about NEOs (Near Earth Objects).
 
-## Part 1 - ETL
-
-Using any language and database system you are comfortable with, create an ETL to process data from NASA's Near Earth Object Web Service. Your goal is to determine if and when any hazardous objects will be approaching earth, how close they will get, and save the information to a database for review in Part 2.
+Using any language and database system you are comfortable with, create an ETL to process data from NASA's Near Earth Object Web Service. <b> Your goal is to determine if and when any hazardous objects will be approaching earth, how close they will get, and save the information to a database. </b>
 
 NASA's web service, including example API calls, can be found here:
 https://api.nasa.gov/neo/?api_key=DEMO_KEY
@@ -14,7 +12,7 @@ Note the NASA API severely rate limits their default public key. It's not strict
 The ETL should perform the following when invoked:
 
 * Query the API for new data, based on the last record of capture. If there are no records in the database, backfill from a user provided date.
-* Capture relevant information about potentially hazardous NEO's for part 2, including the close approach date and miss distance. The boolean field is_potentially_hazardous_asteroid will indicate if an object is potentially hazardous.
+* Capture relevant information about potentially hazardous NEO's, including the close approach date and miss distance. The boolean field is_potentially_hazardous_asteroid will indicate if an object is potentially hazardous. Create simple queries to validate your data and to answer the questions listed in bold above. 
 
 ## Submission Guidelines
 
