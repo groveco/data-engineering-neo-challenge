@@ -12,13 +12,13 @@ Note the NASA API severely rate limits their default public key. It's not strict
 The ETL should perform the following when invoked:
 
 * Query the API for new data, based on the last record of capture. If there are no records in the database, backfill from a user provided date.
-* Capture relevant information about potentially hazardous NEO's, including the close approach date and miss distance. The boolean field is_potentially_hazardous_asteroid will indicate if an object is potentially hazardous. Create simple queries to validate your data and to answer the questions listed in bold above. 
+* Capture relevant information about potentially hazardous NEO's, including the close approach date and miss distance. The boolean field `is_potentially_hazardous_asteroid` will indicate if an object is potentially hazardous. Create simple queries to validate your data and to answer the questions listed in bold above. 
 
 ## Submission Guidelines
 
 * Please create a new GitHub repo for your work. Do not fork this one.
 
-* Check all of your source code into GitHub. Please also check in any schema or database exports and/or related database files that you created in task 1 along with instructions. We should be able to get your solution up and running quickly on a mac or Ubuntu Linux system.
+* Check all of your source code into GitHub. Please also check in any schema or database exports and/or related database files that you created along with instructions. We should be able to get your solution up and running quickly on a mac or Ubuntu Linux system.
 
 Keep in mind we're looking for the following:
 
