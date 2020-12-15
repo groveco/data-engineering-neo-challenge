@@ -18,7 +18,7 @@ The ETL should perform the following when invoked:
 
 * Please create a new GitHub repo for your work. Do not fork this one.
 
-* Check all of your source code into GitHub, including any screenshots from Task 2. Please also check in any schema or database exports and/or related database files that you created in task 1 along with instructions. We should be able to get your solution up and running quickly on a mac or Ubuntu Linux system.
+* Check all of your source code into GitHub. Please also check in any schema or database exports and/or related database files that you created in task 1 along with instructions. We should be able to get your solution up and running quickly on a mac or Ubuntu Linux system.
 
 Keep in mind we're looking for the following:
 
